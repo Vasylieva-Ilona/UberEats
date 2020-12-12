@@ -1,0 +1,15 @@
+* {
+    margin: 0; padding: 0;
+}
+
+header {
+    background-color:#f4f5f7; 
+}
+
+.header-image {
+    background-image: url(./salad.jpg);
+    min-height: 667px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
