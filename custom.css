@@ -1,15 +1,127 @@
-* {
-    margin: 0; padding: 0;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'Kayak Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kayak Sans Regular'), url('Kayak Sans Regular.woff') format('woff'),
+    url('./style/fonts/kayak-sans-otf/Kayak/ Sans/ Regular.otf') format('otf');
+}
+    
+
+@font-face {
+    font-family: 'Kayak Sans Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kayak Sans Light'), url('./style/fonts/kayak-sans/Kayak/ Sans/ Light.woff') format('woff'),
+    url('./style/fonts/kayak-sans-otf/Kayak/ Sans/ Light.otf') format('otf'),
+    url('Kayak Sans Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Kayak Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kayak Sans Bold'), url('./style/fonts/kayak-sans/Kayak/ Sans/ Bold.woff') format('woff'),
+    url('./style/fonts/kayak-sans-otf/Kayak/ Sans/ Bold.otf') format('otf');
+}
+    
+ 
+/* header & 'first' container */
 
 header {
     background-color:#f4f5f7; 
 }
 
 .header-image {
-    background-image: url(./style/header_UberEats/salad.jpg);
-    min-height: 667px;
+    background-image: url(./style/header_UberEats/Plate_header.png);
+    min-height: 880px; /* фон будет обрезаться по диагонали слева направо с 880 пикселей (слева) по 596 пикселей - справа*/ 
     background-repeat: no-repeat;
     background-position: top right;
+    display: flex;
+    flex-direction:row;
+    padding: 176px 176px 0px 265px;
     
+}
+
+.left_block {
+    flex: 1;
+    justify-content: flex-start;
+
+}
+
+.right_button {
+    margin-right: auto;
+}
+
+
+/* 'deliver nead you' container2 */
+
+.deliver_near_u_2 {
+    display: flex;
+    flex-direction:row; 
+    padding: 176px 176px 0px 265px;
+    background-repeat: no-repeat;
+}
+
+.left_picture  {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.right_side {
+    margin-right: auto;
+}
+
+
+
+/*  favourites_FindFood_3 */
+
+.favourites_FindFood {
+    min-height: 600px;
+    background-color: #f4f5f7;
 }
