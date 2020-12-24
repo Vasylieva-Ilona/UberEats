@@ -58,8 +58,7 @@ border-spacing: 0;
     font-style: normal;
     font-weight: normal;
     src: local('Kayak Sans Light'), url('./style/fonts/kayak/kayak-woff/Kayak\ Sans\ Light.woff') format('woff'),
-    url('./style/fonts/kayak/kayak_otf/Kayak/ Sans/ Light.otf') format('otf'),
-    url('Kayak Sans Light.woff') format('woff');
+    url('./style/fonts/kayak/kayak_otf/Kayak/ Sans/ Light.otf') format('otf');
 }
 
 @font-face {
