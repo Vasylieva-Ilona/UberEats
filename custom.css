@@ -74,26 +74,51 @@ border-spacing: 0;
 
 header {
     background-color:#f4f5f7; 
-    background-size: 880px;
-    clip-path: polygon(0 0, 100% 0%, 100% 46%, 0 78%);
+    width: 1920px;
+    height: 880px;
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
+    position: relative;
 }
 
 .header-image {
-    background-image: url(./style/img/header_UberEats/Plate_header.png);
-    min-height: 880px; /* фон будет обрезаться по диагонали слева направо с 880 пикселей (слева) по 596 пикселей - справа*/ 
     background-repeat: no-repeat;
-    background-position: top right;
     display: flex;
     flex-direction:row;
-    padding: 176px 176px 0px 265px;
+    padding: 45px 175px 0px 178px;
     
 }
 
-.left_block {
-    flex: 1;
-    justify-content: flex-start;
-
+.text_block {
+    margin-left: auto;
+    align-items: center;
+    align-content: center;
+    height: 374px;
 }
+
+.Sincerer_Love {
+    flex: 1;
+    padding-top: 196px;
+}
+
+.text_block h2 {
+    font-family: 'Kayak Sans Bold';
+    font-size: 48px;
+    width: 390px;
+    line-height: 70px;
+}
+
+.text_block span {
+    color: #5fb709;
+}
+
+.text_block p {
+    font-family: 'Kayak Sans Bold';
+    font-size: 21px;
+    width: 465px;
+    padding-top: 25px;
+    padding-bottom: 44px;
+}
+
 
 .btn {
     display: inline-block;
@@ -101,9 +126,8 @@ header {
 	text-decoration: none;
 	color: #fffefe;
 	background: #5fb709;
-	font-size: 25px;
     border: 3px solid #5fb709;
-    border-radius: 15px;
+    border-radius: 10px;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
@@ -126,34 +150,81 @@ header {
 }
 
 .left_btn {
-	padding: 22px 32px;	
+    font-size: 22px;
+	padding: 20px 34px;	
 }
 
-.right_btn {
-    font-size: 19px;
-    margin-right: auto;
-	padding: 22px 72px;	
+.header_plate {
+    margin-left: auto;
+	position: absolute;
+	top: -40px;
+	right: 0px;
+
 }
 
+.right_btn { 
+    position: absolute;
+    top: 45px;
+	right: 175px;
+    font-size: 16px;
+    padding: 10px 25px;	
+}
+
+.center_punch {
+    position: absolute;
+    top: 435px;
+	right: 1020px;
+}
+
+.center_onion {
+    position: absolute;
+    top: 481px;
+	right: 1007px;
+}
 
 /* 'deliver nead you' container2 */
 
+
 .deliver_near_u_2 {
+    min-height: 490px;
     display: flex;
     flex-direction:row; 
-    padding: 176px 176px 0px 265px;
+    padding: 54px 359px 0px 235px;
     background-repeat: no-repeat;
 }
 
 .left_picture  {
-    flex: 1;
     justify-content: flex-start;
 }
 
 .right_side {
     margin-right: auto;
+    flex-direction:row; 
 }
 
+.leaf {
+    position: absolute;
+    top: 810px;
+    right: 425px;
+    filter: drop-shadow(0 0.7rem 0.5rem rgba(0, 0, 0, 0.6));
+}
+
+.button_findfood {
+    font-size: 22px;
+	padding: 20px 48px;	
+}
+
+input[type="text" i] {
+    padding: 28px 267px 26px 30px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.Discover_restourants h2 {
+    width: 665px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
 
 
 /*  favourites_FindFood_3 */
@@ -161,4 +232,6 @@ header {
 .favourites_FindFood {
     min-height: 600px;
     background-color: #f4f5f7;
+    clip-path: polygon(0 30%, 100% 0%, 100% 70%, 0 100%);
 }
+
