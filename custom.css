@@ -141,7 +141,6 @@ header {
     transform: scale(1.1);
 	transition: .5s;
 	box-shadow: 0 0 5px;
-	transition: .5s;
 }
 
 .btn:active {
@@ -182,6 +181,16 @@ header {
 	right: 1007px;
 }
 
+.center_punch:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+.center_onion:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
 /* 'deliver nead you' container2 */
 
 
@@ -195,6 +204,11 @@ header {
 
 .left_picture  {
     justify-content: flex-start;
+}
+
+.left_picture:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
 }
 
 .right_side {
@@ -211,7 +225,7 @@ header {
 
 .button_findfood {
     font-size: 22px;
-	padding: 20px 48px;	
+    padding: 20px 48px;	
 }
 
 input[type="text" i] {
@@ -249,11 +263,12 @@ input[type="text" i] {
 .line-wave::before {
 	content: "";
     background: url('./style/img/container_3/wave.png') no-repeat;
-	background-size: contain;
+    background-size: contain;
+    background-position: 159px;
 	display: block;
-	height: 10px;
-    margin-bottom: 135px;
-    margin-top: 40px;
+	height: 30px;
+    margin-bottom: 130px;
+    margin-top: 10px;
 }
 
 .favourites_FindFood h2 {
@@ -266,5 +281,35 @@ input[type="text" i] {
 
 }
 
+.btn_findfood {
+    position: absolute;
+    top: 2077px;
+    left: 175px;
+    font-size: 22px;
+    padding: 20px 48px;	
+}
 
+.favourites_picture {
+    position: absolute;
+    padding-left: 0px;
+    top: 2288px;
+}
+
+.favourites_picture:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+
+.favourite_picture_BrEgg {
+    position: absolute;
+    padding-left: 1530px;
+    top: 1580px; 
+}
+
+.favourite_picture_Phone {
+    position: absolute;
+    padding-left: 1050px;
+    top: 1605px; 
+}
 
