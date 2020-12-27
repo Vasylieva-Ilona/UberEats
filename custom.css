@@ -281,13 +281,6 @@ input[type="text" i] {
 
 }
 
-.btn_findfood {
-    position: absolute;
-    top: 2077px;
-    left: 175px;
-    font-size: 22px;
-    padding: 20px 48px;	
-}
 
 .favourites_picture {
     position: absolute;
@@ -312,4 +305,28 @@ input[type="text" i] {
     padding-left: 1050px;
     top: 1605px; 
 }
+
+.btn_findfood {
+    position: absolute;
+    top: 2077px;
+    left: 175px;
+    font-size: 22px;
+    padding: 20px 48px;	
+}
+
+.btn_findfood:hover {
+	text-decoration: none;
+	color: #5fb709;
+	background: none;	
+    border: 3px solid #75d316;
+    transform: scale(1.1);
+	transition: .5s;
+	box-shadow: 0 0 5px;
+}
+
+.btn_findfood:active {
+	transform: translateY(1px);
+	filter: saturate(150%);
+}
+
 
