@@ -92,12 +92,12 @@ header {
     margin-left: auto;
     align-items: center;
     align-content: center;
-    height: 374px;
 }
 
 .Sincerer_Love {
     flex: 1;
     padding-top: 196px;
+    height: 374px;
 }
 
 .text_block h2 {
@@ -278,7 +278,6 @@ input[type="text" i] {
     padding-left: 175px;
     padding-top: 0px;
     top: 1730px;
-
 }
 
 
@@ -288,17 +287,13 @@ input[type="text" i] {
     top: 2288px;
 }
 
-.favourites_picture:hover {
-    -webkit-filter: opacity(50%);
-    filter: opacity(50%);
-}
-
 
 .favourite_picture_BrEgg {
     position: absolute;
     padding-left: 1530px;
     top: 1580px; 
 }
+
 
 .favourite_picture_Phone {
     position: absolute;
@@ -314,19 +309,55 @@ input[type="text" i] {
     padding: 20px 48px;	
 }
 
-.btn_findfood:hover {
-	text-decoration: none;
-	color: #5fb709;
-	background: none;	
-    border: 3px solid #75d316;
-    transform: scale(1.1);
-	transition: .5s;
-	box-shadow: 0 0 5px;
+
+/* UberAccaunt_4 */
+
+.UberAccaunt_background {
+    background-image: url('./style/img/container_4/Left_Plate_with_hands.png');
+    background-repeat: no-repeat;
+    background-position: 0px 160px;
+    min-height: 970px;
+    position: relative;
 }
 
-.btn_findfood:active {
-	transform: translateY(1px);
-	filter: saturate(150%);
+.UberAccaunt {
+    padding-left: 875px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
 }
 
+.left_side {
+    flex: 1;
+}
 
+.UberAccaunt {
+    padding-top: 350px;
+}
+
+.UberAccaunt h2 {
+    width: 580px;
+}
+
+.after_line-wave::after {
+    content: "";
+    background: url('./style/img/container_3/wave.png') no-repeat;
+    background-size: contain;
+	display: block;
+	height: 30px;
+    margin-bottom: 130px;
+    margin-top: 150px;
+}
+
+.Mushroom_top {
+    position: absolute;
+    top: 100px;
+    right: 578px;
+}
+
+.Small_Plate_right {
+    position: absolute;
+    top: 330px;
+    right: 0px;
+}
