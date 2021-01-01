@@ -340,29 +340,32 @@ input[type="text" i] {
 
 /* UberAccaunt_4 */
 
-.UberAccaunt_background {
-    background-image: url('./style/img/container_4/Left_Plate_with_hands.png');
-    background-repeat: no-repeat;
-    background-position: 0px 160px;
-    min-height: 835px;
-    position: relative;
+.UberAccaunt_4 {
+    display: flex;
+    max-width: 560px;
+}
+
+
+.UberAccaunt_backgroundimg {
+    display: flex;
+    flex: 1;
+    max-width: 584px;
 }
 
 .UberAccaunt {
-    padding-left: 875px;
+    padding-left: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
+    margin-left: 880px;
+    padding-top: 300px;
 }
 
-.left_side {
-    flex: 1;
+.UberAccaunt_backgroundimg img { 
+    padding-top: 150px;
+    position: absolute;
 }
 
-.UberAccaunt {
-    padding-top: 350px;
-}
 
 .UberAccaunt h2 {
     width: 580px;
@@ -374,19 +377,25 @@ input[type="text" i] {
     background-size: contain;
 	display: block;
 	height: 30px;
-    margin-bottom: 130px;
     margin-top: 150px;
 }
 
 .Mushroom_top {
     position: absolute;
-    top: 100px;
+    top: 2659px;
     right: 578px;
 }
 
+.Mushroom_top:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
+
 .Small_Plate_right {
     position: absolute;
-    top: 330px;
+    top: 2944px;
     right: 0px;
 }
 
@@ -400,16 +409,15 @@ input[type="text" i] {
 /* Treck_Your_Food_5 */
 
 .Treck_Your_Food_background {
-    min-height: 1120px;
+    min-height: 1400px;
     top: 0;
     bottom: 0;
- 
     left: 0;
     width: 100%;
     height: 100%;
     background: #f1f2f4;
     z-index: 0;
-    transform: skewY(-8deg);
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%);
     position: relative;
 }
 
@@ -418,7 +426,7 @@ input[type="text" i] {
     min-height: 800px;
     margin-left: auto;
 	position: absolute;
-	top: 3580px;
+	top: 3503px;
 	right: 0px;
 }
 
@@ -445,7 +453,7 @@ input[type="text" i] {
     min-height: 80px;
     margin-left: auto;
 	position: absolute;
-	top: 3520px;
+	top: 3500px;
 	right: 968px;
 }
 
@@ -460,8 +468,8 @@ input[type="text" i] {
     min-height: 80px;
     margin-left: auto;
 	position: absolute;
-	top: 3620px;
-	right: 968px;
+	top: 4140px;
+	right: 1430px;
 }
 
 .Treck_Your_Food_Sandwitch_left:hover {
@@ -475,8 +483,8 @@ input[type="text" i] {
     min-height: 80px;
     margin-left: auto;
 	position: absolute;
-	top: 3520px;
-	right: 968px;
+	top: 4210px;
+	right: 1155px;
 }
 
 .Treck_Your_Food_Dumpling_right:hover {
