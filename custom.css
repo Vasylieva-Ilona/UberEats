@@ -382,7 +382,7 @@ input[type="text" i] {
 
 .Mushroom_top {
     position: absolute;
-    top: 2659px;
+    top: 2629px;
     right: 578px;
 }
 
@@ -395,7 +395,7 @@ input[type="text" i] {
 
 .Small_Plate_right {
     position: absolute;
-    top: 2944px;
+    top: 2924px;
     right: 0px;
 }
 
@@ -407,6 +407,7 @@ input[type="text" i] {
 
 
 /* Treck_Your_Food_5 */
+
 
 .Treck_Your_Food_background {
     min-height: 1400px;
@@ -423,10 +424,10 @@ input[type="text" i] {
 
 .Treck_Your_Food_imgbackground {
     background-position: 0px 0px;
-    min-height: 800px;
+    min-height: 790px;
     margin-left: auto;
 	position: absolute;
-	top: 3503px;
+	top: 3510px;
 	right: 0px;
 }
 
@@ -438,13 +439,13 @@ input[type="text" i] {
 
 .TreckYourFood_first {
     min-width: 500px;
-    top: 3854px; 
+    top: 3764px; 
     padding-top: 0px;   
 }
 
 .TreckYourFood_second {
     min-width: 800px;
-    top: 3930px; 
+    top: 3840px; 
     padding-top: 0px;   
 }
 
@@ -453,7 +454,7 @@ input[type="text" i] {
     min-height: 80px;
     margin-left: auto;
 	position: absolute;
-	top: 3500px;
+	top: 3450px;
 	right: 968px;
 }
 
@@ -468,7 +469,7 @@ input[type="text" i] {
     min-height: 80px;
     margin-left: auto;
 	position: absolute;
-	top: 4140px;
+	top: 4080px;
 	right: 1430px;
 }
 
@@ -483,7 +484,7 @@ input[type="text" i] {
     min-height: 80px;
     margin-left: auto;
 	position: absolute;
-	top: 4210px;
+	top: 4150px;
 	right: 1155px;
 }
 
@@ -492,4 +493,73 @@ input[type="text" i] {
     filter: opacity(50%);
     transition: .5s;
 }
+
+
+/* Get_The_App_6 */
+
+
+.GetTheApp {
+    background: url('./style/img/container_6/Background.png') no-repeat;
+    min-height: 1030px;
+    background-color:#f8f8fa;
+    
+}
+
+.Get_The_App h2 {
+    padding-top: 200px;
+    padding-left: 1065px;
+    min-width: 450px;
+}
+
+
+.icon_UberEats {
+    top: 4850px;
+    right: 877px;
+    position: absolute;
+}
+
+.icon_UberEats:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
+.git_it_on {
+    top: 5000px;   
+    right: 782px;
+    position: absolute;
+}
+
+.git_it_on:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+} 
+
+
+.app_store {
+    top: 5000px;
+    right: 555px;
+    position: absolute;
+}
+
+.app_store:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
+
+.salad_GetTheApp {
+    top: 4565px;   
+    right: 137px;
+    position: absolute; 
+}
+
+.salad_GetTheApp:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
 
