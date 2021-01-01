@@ -49,7 +49,7 @@ border-spacing: 0;
     font-style: normal;
     font-weight: normal;
     src: local('Kayak Sans Regular'), url('Kayak Sans Regular.woff') format('woff'),
-    url('./style/fonts/kayak-sans-otf/Kayak/ Sans/ Regular.otf') format('otf');
+    url('../UberEats_Vasylieva/style/fonts/kayak/kayak_otf/Kayak\ Sans\ Regular.otf') format('otf');
 }
     
 
@@ -89,7 +89,6 @@ header {
 }
 
 .text_block {
-    margin-left: auto;
     align-items: center;
     align-content: center;
 }
@@ -107,8 +106,23 @@ header {
     line-height: 70px;
 }
 
-.text_block span {
+.text_block span a {
     color: #5fb709;
+    text-decoration: none;
+}
+
+
+.text_block span a:hover {
+    color: #8de931;
+    text-decoration: none;
+    transform: scale(1.1);
+	transition: .5s;
+}
+
+.text_block span a:active {
+    color: #5fb709;
+    text-decoration: none;
+ 
 }
 
 .text_block p {
@@ -184,11 +198,13 @@ header {
 .center_punch:hover {
     -webkit-filter: opacity(50%);
     filter: opacity(50%);
+    transition: .5s;
 }
 
 .center_onion:hover {
     -webkit-filter: opacity(50%);
     filter: opacity(50%);
+    transition: .5s;
 }
 
 /* 'deliver nead you' container2 */
@@ -209,6 +225,7 @@ header {
 .left_picture:hover {
     -webkit-filter: opacity(50%);
     filter: opacity(50%);
+    transition: .5s;
 }
 
 .right_side {
@@ -220,26 +237,31 @@ header {
     position: absolute;
     top: 810px;
     right: 425px;
-    filter: drop-shadow(0 0.7rem 0.5rem rgba(0, 0, 0, 0.6));
 }
 
 .button_findfood {
     font-size: 22px;
     padding: 20px 48px;	
+    margin: 6px;
 }
 
 input[type="text" i] {
-    padding: 28px 267px 26px 30px;
+    padding: 28px 275px 26px 30px;
     border-width: 1px;
     border-radius: 10px;
 }
 
 .Discover_restourants h2 {
     width: 665px;
+    margin-left: 139px;
     padding-top: 90px;
     padding-bottom: 50px;
 }
 
+.Discover_restourants form { 
+    margin-left: 139px;
+    width: 694px;
+}
 
 /*  favourites_FindFood_3 */
 
@@ -275,9 +297,9 @@ input[type="text" i] {
     width: 668px;
     line-height: 70px;
     position: absolute;
-    padding-left: 175px;
+    padding-left: 179px;
     padding-top: 0px;
-    top: 1730px;
+    top: 1737px;
 }
 
 
@@ -290,20 +312,26 @@ input[type="text" i] {
 
 .favourite_picture_BrEgg {
     position: absolute;
-    padding-left: 1530px;
+    padding-left: 1450px;
     top: 1580px; 
+}
+
+.favourite_picture_BrEgg:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
 }
 
 
 .favourite_picture_Phone {
     position: absolute;
-    padding-left: 1050px;
+    padding-left: 910px;
     top: 1605px; 
 }
 
 .btn_findfood {
     position: absolute;
-    top: 2077px;
+    top: 2075px;
     left: 175px;
     font-size: 22px;
     padding: 20px 48px;	
@@ -316,7 +344,7 @@ input[type="text" i] {
     background-image: url('./style/img/container_4/Left_Plate_with_hands.png');
     background-repeat: no-repeat;
     background-position: 0px 160px;
-    min-height: 970px;
+    min-height: 835px;
     position: relative;
 }
 
@@ -354,7 +382,6 @@ input[type="text" i] {
     position: absolute;
     top: 100px;
     right: 578px;
-    filter: drop-shadow(0 -0.7rem 0.5rem rgba(0, 0, 0, 0.6));
 }
 
 .Small_Plate_right {
@@ -362,3 +389,99 @@ input[type="text" i] {
     top: 330px;
     right: 0px;
 }
+
+.Small_Plate_right:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
+
+/* Treck_Your_Food_5 */
+
+.Treck_Your_Food_background {
+    min-height: 1120px;
+    top: 0;
+    bottom: 0;
+ 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f1f2f4;
+    z-index: 0;
+    transform: skewY(-8deg);
+    position: relative;
+}
+
+.Treck_Your_Food_imgbackground {
+    background-position: 0px 0px;
+    min-height: 800px;
+    margin-left: auto;
+	position: absolute;
+	top: 3580px;
+	right: 0px;
+}
+
+
+.TreckYourFood h2 {
+    position: absolute;
+    padding-left: 179px;
+}
+
+.TreckYourFood_first {
+    min-width: 500px;
+    top: 3854px; 
+    padding-top: 0px;   
+}
+
+.TreckYourFood_second {
+    min-width: 800px;
+    top: 3930px; 
+    padding-top: 0px;   
+}
+
+.Treck_Your_Food_spice {
+    background-position: 0px 0px;
+    min-height: 80px;
+    margin-left: auto;
+	position: absolute;
+	top: 3520px;
+	right: 968px;
+}
+
+.Treck_Your_Food_spice:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
+.Treck_Your_Food_Sandwitch_left {
+    background-position: 0px 0px;
+    min-height: 80px;
+    margin-left: auto;
+	position: absolute;
+	top: 3620px;
+	right: 968px;
+}
+
+.Treck_Your_Food_Sandwitch_left:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
+.Treck_Your_Food_Dumpling_right {
+    background-position: 0px 0px;
+    min-height: 80px;
+    margin-left: auto;
+	position: absolute;
+	top: 3520px;
+	right: 968px;
+}
+
+.Treck_Your_Food_Dumpling_right:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: .5s;
+}
+
