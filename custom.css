@@ -172,7 +172,6 @@ header {
 	position: absolute;
 	top: -40px;
 	right: 0px;
-
 }
 
 .right_btn { 
@@ -563,3 +562,228 @@ input[type="text" i] {
 }
 
 
+/*  Адаптивность  */
+
+@media (min-width: 1760px) and (max-width: 1870px)  { 
+
+    header {
+        height: 1200px;
+    }
+
+
+    .header_plate {
+        margin-left: auto;
+        position: absolute;
+        top: 0px;
+        left: 800px;
+    }
+
+    .Sincerer_Love {
+        flex: 1;
+        padding-top: 450px;
+        height: 374px;
+    }
+
+    .center_punch {
+        top: 65px;
+        right: 1320px;
+    }
+    
+    .center_onion {
+        top: 111px;
+        right: 1320px;
+    }
+
+    .leaf {
+        top: 1010px;
+        right: 425px;
+    }
+
+    .favourites_FindFood h2 {
+        top: 1987px;
+    }
+
+    .btn_findfood {
+        top: 2325px;
+    }
+
+    .favourites_picture {
+        top: 2488px;
+    }
+
+    .favourite_picture_Phone {
+        top: 1905px;
+    }
+
+    .favourite_picture_BrEgg {
+        top: 1780px;
+    }
+
+    .Mushroom_top {
+        top: 2929px;
+    }
+
+    .Small_Plate_right {
+        top: 3174px;
+    }
+
+    .Treck_Your_Food_imgbackground {
+        top: 3830px;
+    }
+
+    .Treck_Your_Food_spice {
+        top: 3750px;
+    }
+
+    .TreckYourFood_first {
+        top: 4064px;
+    }
+
+    .TreckYourFood_second {
+        top: 4140px;
+    }
+
+    .Treck_Your_Food_Sandwitch_left {
+        top: 4430px;
+    }
+
+    .Treck_Your_Food_Dumpling_right {
+        top: 4500px;
+    }
+
+    .icon_UberEats {
+        top: 5160px;
+        right: 830px;
+    }
+
+    .git_it_on {
+        top: 5350px;
+        right: 742px;
+    }
+
+    .app_store {
+        top: 5350px;
+        right: 505px;
+    }
+
+ }
+
+
+ @media (min-width: 1500px) and (max-width: 1759px)  { 
+
+    header {
+        height: 1200px;
+    }
+
+
+    .header_plate {
+        margin-left: auto;
+        position: absolute;
+        top: 0px;
+        left: 800px;
+    }
+
+    .Sincerer_Love {
+        flex: 1;
+        padding-top: 450px;
+        height: 374px;
+    }
+
+    .right_btn {
+        top: 45px;
+        right: 0px;
+    }
+
+    .center_punch {
+        top: 65px;
+        right: 1020px;
+    }
+    
+    .center_onion {
+        top: 111px;
+        right: 1020px;
+    }
+
+    .leaf {
+        top: 1010px;
+        right: 425px;
+    }
+
+    .favourites_FindFood h2 {
+        top: 1987px;
+    }
+
+    .btn_findfood {
+        top: 2325px;
+    }
+
+    .favourites_picture {
+        top: 2488px;
+    }
+
+    .favourite_picture_Phone {
+        top: 1905px;
+    }
+
+    .favourite_picture_BrEgg {
+        top: 1780px;
+    }
+
+    .Mushroom_top {
+        top: 2979px;
+    }
+
+    .UberAccaunt {
+        margin-left: 680px;
+    }
+
+    .Small_Plate_right {
+        top: 3174px;
+    }
+
+    .Treck_Your_Food_imgbackground {
+        top: 3833px;
+    }
+
+    .Treck_Your_Food_spice {
+        top: 3750px;
+    }
+
+    .TreckYourFood_first {
+        top: 4064px;
+    }
+
+    .TreckYourFood_second {
+        top: 4140px;
+    }
+
+    .Treck_Your_Food_Sandwitch_left {
+        top: 4430px;
+    }
+
+    .Treck_Your_Food_Dumpling_right {
+        top: 4500px;
+    }
+
+    .icon_UberEats {
+        top: 5160px;
+        right: 830px;
+    }
+
+    .Get_The_App h2 {
+        padding-top: 200px;
+        padding-left: 715px;
+        min-width: 450px;
+    }
+
+    .git_it_on {
+        top: 5350px;
+        right: 742px;
+    }
+
+    .app_store {
+        top: 5350px;
+        right: 505px;
+    }
+
+}
